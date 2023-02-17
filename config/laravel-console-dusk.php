@@ -12,6 +12,7 @@ return [
     'paths' => [
         'screenshots' => storage_path('laravel-console-dusk/screenshots'),
         'log'         => storage_path('laravel-console-dusk/log'),
+        'source'      => storage_path('laravel-console-dusk/source'),
     ],
 
     /*
@@ -24,4 +25,21 @@ return [
     */
     'headless' => true,
 
+    /*
+    | --------------------------------------------------------------------------
+    | Driver Configuration
+    | --------------------------------------------------------------------------
+    |
+    | Here you may pass options to the browser driver being automated.
+    |
+    | A list of available Chromium command line switches is available at
+    | https://peter.sh/experiments/chromium-command-line-switches/
+    */
+    'driver' => [
+        'chrome' => [
+            'options' => [
+                '--disable-gpu',
+            ],
+        ],
+    ],
 ];

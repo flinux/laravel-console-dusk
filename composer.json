@@ -1,5 +1,5 @@
 {
-    "name": "nunomaduro/laravel-console-dusk",
+    "name": "flinux/laravel-console-dusk",
     "description": "Laravel Console Dusk allows the usage of Laravel Dusk in Laravel/Laravel Zero artisan commands.",
     "keywords": ["console", "command-line", "php", "cli", "laravel-zero", "laravel", "Laravel Dusk", "artisan", "symfony"],
     "license": "MIT",
